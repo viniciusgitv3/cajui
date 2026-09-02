@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --cajui-green: #176D05;
+    --cajui-green-dark: #0F4803;
+    --cajui-lime: #7DBD00;
+    --cajui-orange: #FF9800;
+    --cajui-orange-dark: #E68500;
+    --cajui-nut: #A96C1D;
+    --cajui-sand: #D6B58B;
+    --cajui-sand-light: #F4ECE1;
+    --cajui-cream: #FAF7F2;
+    --cajui-text-dark: #1E271D;
+  }
+}
+
+/* Custom editorial typography & aesthetics */
+.font-montserrat {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #F4ECE1;
+}
+::-webkit-scrollbar-thumb {
+  background: #D6B58B;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #A96C1D;
+}
+
+/* Subtle organic grain texture and border radius utility */
+.pattern-dots {
+  background-image: radial-gradient(#176D05 0.75px, transparent 0.75px);
+  background-size: 16px 16px;
+  opacity: 0.04;
+}
+
+.aspect-presentation {
+  aspect-ratio: 16 / 9;
+}

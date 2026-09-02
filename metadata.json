@@ -1,0 +1,6 @@
+{
+  "name": "Cajuí - Catálogo & Landing Page",
+  "description": "Landing page institucional e catálogo de produtos de alta resolução (1920x1080) para a marca Cajuí.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
